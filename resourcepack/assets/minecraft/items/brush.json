@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/brush"
+    },
+    "cases": [
+      {
+        "when": "magnifier",
+        "model": {
+          "type": "model",
+          "model": "item/magnifier"
+        }
+      },
+      {
+        "when": "magnifier_time",
+        "model": {
+          "type": "model",
+          "model": "item/magnifier_time"
+        }
+      }
+    ]
+  }
+}
